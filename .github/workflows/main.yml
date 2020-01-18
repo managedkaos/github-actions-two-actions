@@ -1,0 +1,8 @@
+name: Test two actions
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: ./action1
+    - uses: ./action2
