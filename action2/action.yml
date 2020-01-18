@@ -1,0 +1,6 @@
+name: "Action 2"
+description: "The Section Action"
+author: "Github"
+branding:
+  icon: "package"
+  color: "gray-dark"
