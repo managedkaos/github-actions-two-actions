@@ -1,6 +1,5 @@
 name: "Action 1"
 description: "The First Action"
-author: "Github"
-branding:
-  icon: "package"
-  color: "gray-dark"
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
